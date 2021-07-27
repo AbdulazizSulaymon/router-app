@@ -1,0 +1,10 @@
+.page404 {
+  background-image: url("https://blog.webit.ru/wp-content/uploads/2016/04/5d4298d584fc7.png");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

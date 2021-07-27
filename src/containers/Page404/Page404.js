@@ -1,10 +1,11 @@
 import "./Page404.css"
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const Page404 = () => {
     return (
-        <div className="container">
-            <h1 className="text-center">404</h1>
+        <div className="page404 p-3">
+            <Link to="/" className="btn btn-dark">Home</Link>
         </div>
     )
 }
