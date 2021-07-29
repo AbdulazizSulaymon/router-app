@@ -1,0 +1,20 @@
+.category {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.category .icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.category .icon img {
+  width: 80%;
+  height: auto;
+}

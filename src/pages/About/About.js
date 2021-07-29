@@ -1,11 +1,14 @@
 import "./About.css"
 import React from 'react'
+import Container from "../../containers/Container";
 
 const About = () => {
     return (
-        <div className="container">
-            <h1>About page</h1>
-        </div>
+        <Container>
+            <div className="container">
+                <h1>Мобильные приложения</h1>
+            </div>
+        </Container>
     )
 }
 

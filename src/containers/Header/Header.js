@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 let menu = [
     { to: "/", title: "Home" },
-    { to: "/about", title: "About" },
+    { to: "/mobileapps", title: "Мобильные приложения" },
     { to: "/dashboard", title: "Dashboard" },
 ]
 
