@@ -1,0 +1,15 @@
+.light {
+  background-color: rgb(236, 234, 255);
+}
+
+.light a {
+  color: rgb(23, 16, 65) !important;
+}
+
+.dark {
+  background-color: rgb(23, 16, 65);
+}
+
+.dark a {
+  color: rgb(236, 234, 255) !important;
+}

@@ -4,6 +4,8 @@ import MobileApps from './pages/About';
 import Home from './pages/Home';
 import Category from './pages/Category';
 import Page404 from './containers/Page404';
+import ThemeContext from "./theme-context";
+import { useState } from 'react';
 
 let pages = [
   { path: "/", component: <Home />, exact: true },
@@ -14,16 +16,24 @@ let pages = [
 ]
 
 function App() {
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    setTheme(theme == "dark" ? "light" : "dark")
+  }
+
   return (
-    <div className="App">
-      <Switch>
-        {pages.map((page, index) => {
-          return <Route path={page.path} exact={page.exact} key={page.path}>
-            {page.component}
-          </Route>
-        })}
-      </Switch>
-    </div>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className="App">
+        <Switch>
+          {pages.map((page, index) => {
+            return <Route path={page.path} exact={page.exact} key={page.path}>
+              {page.component}
+            </Route>
+          })}
+        </Switch>
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
