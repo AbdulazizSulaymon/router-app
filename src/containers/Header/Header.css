@@ -1,3 +1,7 @@
+header {
+  transition: 0.5s !important;
+}
+
 .light {
   background-color: rgb(236, 234, 255);
 }
