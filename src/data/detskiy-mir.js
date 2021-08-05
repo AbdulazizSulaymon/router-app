@@ -3,7 +3,7 @@ const data = [
         img: "https://apollo-olx.cdnvideo.ru/v1/files/t7vauxfrjlg2-UZ/image;s=644x461",
         title: "НАНО КИНЕТИЧЕСКИЙ ПЕСОК 5 кг + бассейн и формочки MAD MATTR",
         price: "299 900 сум",
-        location: "Ташкент, Мирабадский район"
+        location: "Ташкент, Мирабадский район",
     },
     {
         img: "https://apollo-olx.cdnvideo.ru/v1/files/p4tjoe7fl4wr-UZ/image;s=644x461",
